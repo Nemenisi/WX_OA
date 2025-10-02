@@ -3,7 +3,7 @@ from .serializers import LoginSerializer, UserSerializer
 from datetime import datetime
 from .authentications import generate_jwt
 from rest_framework.response import Response
-from .serializer import ResetPwdSerializer
+from .serializers import ResetPwdSerializer
 from rest_framework import status
 
 class LoginView(APIView):
